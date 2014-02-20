@@ -2,10 +2,10 @@
  * Module dependencies
  */
 
-var domify = require('domify'),
-    Emitter = require('emitter'),
-    events = require('event'),
-    classes = require('classes'),
+var domify = require('component-domify'),
+    Emitter = require('component-emitter'),
+    events = require('component-event'),
+    classes = require('component-classes'),
     template = require('./template');
 
 /**
